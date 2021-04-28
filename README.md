@@ -16,7 +16,7 @@
 ```python hs.py```
 
 ### Or 
-#### Download executable file from releases!
+#### Download executable file from <a href="https://github.com/KasRoudra/httpserver/releases/download/v1.0-beta/hs.exe">Releases</a>
 ### Or, Use Single Command
 ```
 git clone https://github.com/KasRoudra/httpserver && cd httpserver && chmod +x hs.py && python hs.py
