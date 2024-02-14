@@ -19,7 +19,7 @@
 #### Download executable file from <a href="https://github.com/KasRoudra/httpserver/releases/download/v1.0-beta/hs.exe">Releases</a>
 ### Or, Use Single Command
 ### But before that you need to make sure that you have the prerequisites installed.
-#### install tkinter with your operating system package manager and using pip3 as a package (A package manager for Python packages)
+#### Install tkinter with your operating system package manager and using pip3 as a package (A package manager for Python packages)
 #### For Debian/Ubuntu
 ```
 sudo apt install python3-tk
