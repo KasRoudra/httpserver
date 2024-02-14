@@ -18,9 +18,30 @@
 ### Or 
 #### Download executable file from <a href="https://github.com/KasRoudra/httpserver/releases/download/v1.0-beta/hs.exe">Releases</a>
 ### Or, Use Single Command
+### But before that you need to make sure that you have the prerequisites installed.
+#### install tkinter with your operating system package manager and using pip3 as a package (A package manager for Python packages)
+#### For Debian/Ubuntu
+```
+sudo apt install python3-tk
+```
+#### For CentOs/RHEL
+```
+sudo yum install python3-tkinter
+```
+#### For MacOs
+```
+brew install python-tk
+```
+
+#### Then install it using pip3
+```
+pip3 install tk
+```
+### Now you're ready, Run this single command to start the application.
 ```
 git clone https://github.com/KasRoudra/httpserver && cd httpserver && chmod +x hs.py && python hs.py
 ```
+
 ### You can change both port and shared folder. Without change default port will be 8000 and default folder will be the folder from which the file is executed!
 
 ## [+]!Caution:

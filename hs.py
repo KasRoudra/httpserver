@@ -15,7 +15,7 @@ def getFolderPath():
 def startftp ():
     port=entry1.get()
     os.chdir(folder_selected)
-    subprocess.call("python -m http.server "+port)
+    subprocess.call(["python3", "-m", "http.server", port])
 canvas1.create_text(230, 130, text="Select Shared folder\n(Current-"+folder_selected+")")
 getfolder = tk.Button(text="Select", command=getFolderPath)
 canvas1.create_window(200, 160, window=getfolder)
